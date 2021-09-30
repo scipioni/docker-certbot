@@ -1,6 +1,6 @@
-= certbot with docker
+# certbot with docker
 
-== setup 
+## setup 
 
 generate tsig key
 ```
@@ -46,7 +46,7 @@ make query-txt DNS=nsa.csgalileo.org
 _acme-challenge.mail.nawigare.it. 120 IN TXT	"test5"
 ```
 
-== certificate request
+## certificate request
 
 dryrun
 ```
@@ -58,7 +58,7 @@ certificate download
 make run DOMAIN=mail.nawigare.it
 ```
 
-certificare renewal
+certificate renew
 ```
 make run DOMAIN=mail.nawigare.it
 ```
